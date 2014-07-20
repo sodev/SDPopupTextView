@@ -19,6 +19,13 @@
 		1401D539197B4D0300942125 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1401D521197B4D0300942125 /* UIKit.framework */; };
 		1401D541197B4D0300942125 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1401D53F197B4D0300942125 /* InfoPlist.strings */; };
 		1401D543197B4D0300942125 /* SDPopupTextViewExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1401D542197B4D0300942125 /* SDPopupTextViewExampleTests.m */; };
+		14D1ED5D197B69B4005A7156 /* viewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D1ED5C197B69B4005A7156 /* viewController.m */; };
+		14D1ED60197B69F7005A7156 /* SDPopupTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D1ED5F197B69F7005A7156 /* SDPopupTextView.m */; };
+		14D1ED63197B6A0D005A7156 /* UIView+position.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D1ED62197B6A0D005A7156 /* UIView+position.m */; };
+		14D1ED69197B6C89005A7156 /* saveImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14D1ED65197B6C89005A7156 /* saveImage@2x.png */; };
+		14D1ED6A197B6C89005A7156 /* saveImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 14D1ED66197B6C89005A7156 /* saveImage.png */; };
+		14D1ED6B197B6C89005A7156 /* cancelImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 14D1ED67197B6C89005A7156 /* cancelImage.png */; };
+		14D1ED6C197B6C89005A7156 /* cancelImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14D1ED68197B6C89005A7156 /* cancelImage@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +55,16 @@
 		1401D53E197B4D0300942125 /* SDPopupTextViewExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SDPopupTextViewExampleTests-Info.plist"; sourceTree = "<group>"; };
 		1401D540197B4D0300942125 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1401D542197B4D0300942125 /* SDPopupTextViewExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDPopupTextViewExampleTests.m; sourceTree = "<group>"; };
+		14D1ED5B197B69B4005A7156 /* viewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = viewController.h; sourceTree = "<group>"; };
+		14D1ED5C197B69B4005A7156 /* viewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = viewController.m; sourceTree = "<group>"; };
+		14D1ED5E197B69F7005A7156 /* SDPopupTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDPopupTextView.h; sourceTree = "<group>"; };
+		14D1ED5F197B69F7005A7156 /* SDPopupTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDPopupTextView.m; sourceTree = "<group>"; };
+		14D1ED61197B6A0D005A7156 /* UIView+position.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+position.h"; sourceTree = "<group>"; };
+		14D1ED62197B6A0D005A7156 /* UIView+position.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+position.m"; sourceTree = "<group>"; };
+		14D1ED65197B6C89005A7156 /* saveImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "saveImage@2x.png"; sourceTree = "<group>"; };
+		14D1ED66197B6C89005A7156 /* saveImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = saveImage.png; sourceTree = "<group>"; };
+		14D1ED67197B6C89005A7156 /* cancelImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancelImage.png; sourceTree = "<group>"; };
+		14D1ED68197B6C89005A7156 /* cancelImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cancelImage@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +126,11 @@
 			children = (
 				1401D52C197B4D0300942125 /* MFAppDelegate.h */,
 				1401D52D197B4D0300942125 /* MFAppDelegate.m */,
+				14D1ED5B197B69B4005A7156 /* viewController.h */,
+				14D1ED5C197B69B4005A7156 /* viewController.m */,
+				14D1ED5E197B69F7005A7156 /* SDPopupTextView.h */,
+				14D1ED5F197B69F7005A7156 /* SDPopupTextView.m */,
+				14D1ED6D197B6C8F005A7156 /* SDPopupTextViewImages */,
 				1401D52F197B4D0300942125 /* Images.xcassets */,
 				1401D524197B4D0300942125 /* Supporting Files */,
 			);
@@ -118,6 +140,7 @@
 		1401D524197B4D0300942125 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				14D1ED64197B6A14005A7156 /* UIView+position */,
 				1401D525197B4D0300942125 /* SDPopupTextViewExample-Info.plist */,
 				1401D526197B4D0300942125 /* InfoPlist.strings */,
 				1401D529197B4D0300942125 /* main.m */,
@@ -142,6 +165,26 @@
 				1401D53F197B4D0300942125 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		14D1ED64197B6A14005A7156 /* UIView+position */ = {
+			isa = PBXGroup;
+			children = (
+				14D1ED61197B6A0D005A7156 /* UIView+position.h */,
+				14D1ED62197B6A0D005A7156 /* UIView+position.m */,
+			);
+			name = "UIView+position";
+			sourceTree = "<group>";
+		};
+		14D1ED6D197B6C8F005A7156 /* SDPopupTextViewImages */ = {
+			isa = PBXGroup;
+			children = (
+				14D1ED65197B6C89005A7156 /* saveImage@2x.png */,
+				14D1ED66197B6C89005A7156 /* saveImage.png */,
+				14D1ED67197B6C89005A7156 /* cancelImage.png */,
+				14D1ED68197B6C89005A7156 /* cancelImage@2x.png */,
+			);
+			name = SDPopupTextViewImages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +264,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1401D528197B4D0300942125 /* InfoPlist.strings in Resources */,
+				14D1ED69197B6C89005A7156 /* saveImage@2x.png in Resources */,
+				14D1ED6A197B6C89005A7156 /* saveImage.png in Resources */,
+				14D1ED6B197B6C89005A7156 /* cancelImage.png in Resources */,
+				14D1ED6C197B6C89005A7156 /* cancelImage@2x.png in Resources */,
 				1401D530197B4D0300942125 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,7 +288,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1401D52A197B4D0300942125 /* main.m in Sources */,
+				14D1ED63197B6A0D005A7156 /* UIView+position.m in Sources */,
+				14D1ED5D197B69B4005A7156 /* viewController.m in Sources */,
 				1401D52E197B4D0300942125 /* MFAppDelegate.m in Sources */,
+				14D1ED60197B69F7005A7156 /* SDPopupTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +490,7 @@
 				1401D548197B4D0300942125 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1401D549197B4D0300942125 /* Build configuration list for PBXNativeTarget "SDPopupTextViewExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -448,6 +499,7 @@
 				1401D54B197B4D0300942125 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
